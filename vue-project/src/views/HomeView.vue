@@ -1,5 +1,6 @@
 <template>
   <CoverTitle />
+  <div class="h-8"></div>
   <BookIndex />
   <div class="h-64"></div>
   <div class="h-8"></div>
