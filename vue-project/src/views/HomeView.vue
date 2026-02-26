@@ -3,6 +3,8 @@
 
 <template>
   <main>
-    Home View
+    <div class="bg-black/10">
+      Home View
+    </div>
   </main>
 </template>
