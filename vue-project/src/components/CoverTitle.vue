@@ -10,9 +10,9 @@
                 <div class="text-6xl font-serif">
                     [[BOOK_TITLE]]
                 </div>
-                <div class="h-16"></div>
+                <div class="h-8"></div>
                 <div class="text-2xl font-black">
-                    
+                    [[BOOK_SUBTITLE]]
                 </div>
             </div>
         </div>
