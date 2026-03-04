@@ -1,13 +1,29 @@
 <!DOCTYPE html>
-<html lang="">
-  <head>
-    <meta charset="UTF-8">
-    <link rel="icon" href="/favicon.ico">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vite App</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
-  </body>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description"
+    content="Presenting [[BOOK_TITLE]] : [[BOOK_SUBTITLE]] by [[AUTHOR_NAME]] as a minimal webbook. Read now without distractions." />
+  <link rel="icon" href="/1F451.svg">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>[[BOOK_TITLE]]</title>
+</head>
+
+<body>
+  <div id="app"></div>
+  <div class="hidden">
+    <h1>[[BOOK_TITLE]] : [[BOOK_SUBTITLE]] by [[AUTHOR_NAME]]</h1>
+    <p>Presented as a minimal webbook. Read now without distractions.</p>
+    <h2>Create your own independent webbook websites</h2>
+    <p>
+      <a href="https://build.kingbook.org">
+        build-a-book
+      </a>
+      :: the Vue webbook generator
+    </p>
+  </div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+
 </html>
