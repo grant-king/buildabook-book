@@ -1,29 +1,27 @@
 <template>
     <CoverTitle />
-    <div class="h-16"></div>
-    <div class="font-bold border-b-2 p-2 text-2xl">
-    </div>
+    <div class="h-32"></div>
     <div class="text-black/80">
-        [[CHAPTER_TITLE]]
+        Introduction
     </div>
     <div class="border-b-4 border-double">
     </div>
     <div class="h-16"></div>
     <div class="grid grid-cols-1 gap-8">
-        <Chapter000 />
+        <Introduction />
     </div>
     <div class="h-64"></div>
-    <RouterLink to="/ch000">
+    <RouterLink to="/ch001">
         <div class="p-8 m-8 border-2 rounded font-bold shadow text-center">
             <div class="text-lime-900">
-                [[NEXT_CHAPTER_TITLE]]
+                [[FIRST_CHAPTER_TITLE]]
             </div>
         </div>
     </RouterLink>
 </template>
 
 <script setup>
-import Chapter000 from '@/components/chapters/Chapter000.vue';
 import CoverTitle from '@/components/CoverTitle.vue';
+import Introduction from '@/components/Introduction.vue';
 
 </script>
