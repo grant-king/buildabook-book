@@ -1,8 +1,7 @@
 <template>
     <CoverTitle />
-    <div class="h-16"></div>
-    <div class="font-bold border-b-2 p-2 text-2xl">
-    </div>
+    <div class="h-32"></div>
+    <div class="h-32"></div>
     <div class="text-black/80">
         [[CHAPTER_TITLE]]
     </div>
