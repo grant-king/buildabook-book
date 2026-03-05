@@ -24,7 +24,7 @@
     <Chapter001 />
   </div>
   <div class="h-64"></div>
-  <RouterLink to="/ch02">
+  <RouterLink to="/chapter002">
     <div class="p-8 m-8 border-2 rounded font-bold shadow text-center">
       <div class="text-lime-900">
         II
