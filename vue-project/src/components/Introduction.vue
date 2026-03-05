@@ -1,7 +1,7 @@
 <template>
-    <div>
-        [[MAIN_BLOCKS]]
-    </div>
+
+    [[MAIN_BLOCKS]]
+
     <div class="h-32"></div>
     <div class="max-w-2xl mx-auto w-full">
         <div class="border-4 border-black/40 rounded">
