@@ -11,7 +11,7 @@
         <Introduction />
     </div>
     <div class="h-64"></div>
-    <RouterLink to="/ch001">
+    <RouterLink to="/chapter001">
         <div class="p-8 m-8 border-2 rounded font-bold shadow text-center">
             <div class="text-lime-900">
                 [[FIRST_CHAPTER_TITLE]]

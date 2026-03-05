@@ -25,7 +25,6 @@ const router = createRouter({
       // which is lazy-loaded when the route is visited.
       component: () => import('../views/IntroductionView.vue'),
     },
-    //[[CHAPTER_PATHS]]
     {
       path: '/chapter000',
       name: 'chapter000',
@@ -36,7 +35,7 @@ const router = createRouter({
       name: 'chapter001',
       component: () => import('../views/Chapter001View.vue'),
     },
-    //[[END_CHAPTER_PATHS]]
+    //[[NEW_CHAPTER_PATHS]]
   ],
 })
 
