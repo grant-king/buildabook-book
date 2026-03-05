@@ -4,7 +4,7 @@
     </div>
     <div v-if="show_subtext" class="text-center text-2xl font-bold font-serif">
         <div class="h-4"></div>
-        [[CHAPTER_SUBTEXT]]
+        [[CHAPTER_SUBTITLE]]
     </div>
     <div class="h-16"></div>
     [[TEXT_BLOCKS]]
