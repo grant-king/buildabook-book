@@ -15,7 +15,7 @@
   </div>
   <div class="h-128"></div>
   <div class="text-black/80">
-    [[CHAPTER_TITLE]]
+    [[FIRST_CHAPTER_TITLE]]
   </div>
   <div class="border-b-4 border-double">
   </div>
@@ -27,7 +27,7 @@
   <RouterLink to="/chapter002">
     <div class="p-8 m-8 border-2 rounded font-bold shadow text-center">
       <div class="text-lime-900">
-        II
+        [[SECOND_CHAPTER_TITLE]]
       </div>
     </div>
   </RouterLink>
