@@ -1,8 +1,8 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createMemoryHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
+  history: createMemoryHistory(import.meta.env.BASE_URL),
   routes: [
     {
       path: '/',
@@ -37,6 +37,13 @@ const router = createRouter({
     },
     //[[NEW_CHAPTER_PATHS]]
   ],
+  scrollBehavior(to, from, savedPosition) {
+    if (savedPosition) {
+      return savedPosition
+    } else {
+      return { top: 0, behavior: 'smooth' }
+    }
+  }
 })
 
 export default router
