@@ -29,7 +29,7 @@
     [[MAIN_BLOCKS]]
   </div>
   <div class="h-32"></div>
-  <div class="border-4 border-black/40 rounded">
+  <div class="border-4 border-black/40 rounded text-lg">
     <div
       class="grid grid-cols-1 gap-2 font-semibold text-center font-serif bg-black/10 rounded py-16 border-16 border-double border-white/80">
       [[CREDITS_LINKS_LIST]]
